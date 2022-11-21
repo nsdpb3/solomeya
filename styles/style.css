@@ -82,31 +82,31 @@ select {
 
 @font-face {
   font-family: "IBMPlexSans-Light";
-  src: url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot");
-  src: url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.svg#IBMPlexSans-Light") format("svg"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.ttf") format("truetype"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff") format("woff"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff2") format("woff2");
+  src: url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot");
+  src: url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.svg#IBMPlexSans-Light") format("svg"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.ttf") format("truetype"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff") format("woff"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat-Regular";
-  src: url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.eot");
-  src: url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.ttf") format("truetype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff") format("woff"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff2") format("woff2");
+  src: url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.eot");
+  src: url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.ttf") format("truetype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff") format("woff"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat-Medium";
-  src: url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.eot");
-  src: url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.ttf") format("truetype"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.woff") format("woff"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.woff2") format("woff2");
+  src: url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.eot");
+  src: url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.ttf") format("truetype"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.woff") format("woff"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat-SemiBold";
-  src: url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot");
-  src: url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.ttf") format("truetype"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff") format("woff"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff2") format("woff2");
+  src: url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot");
+  src: url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.ttf") format("truetype"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff") format("woff"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -154,7 +154,7 @@ body {
 }
 
 .banner-bg {
-  background-image: url("/assets/images/screen-one_bg.jpg");
+  background-image: url("./assets/images/screen-one_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -339,7 +339,7 @@ body {
 }
 
 .signing-bg {
-  background-image: url("/assets/images/sigining_bg.jpeg");
+  background-image: url("./assets/images/sigining_bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -427,7 +427,7 @@ body {
 }
 
 .warning p::before {
-  content: url("/assets/images/icons/warning_icon.svg");
+  content: url("./assets/images/icons/warning_icon.svg");
 }
 
 .step {
@@ -450,7 +450,7 @@ body {
 }
 
 .step--bg {
-  background: url("/assets/images/step-one_bg.jpg");
+  background: url("./assets/images/step-one_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 300px;
@@ -458,7 +458,7 @@ body {
 }
 
 .step--bg_1 {
-  background: url("/assets/images/step-two_bg.jpg");
+  background: url("./assets/images/step-two_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
