@@ -82,15 +82,15 @@ select {
 
 @font-face {
   font-family: "IBMPlexSans-Light";
-  src: url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot");
-  src: url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.svg#IBMPlexSans-Light") format("svg"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.ttf") format("truetype"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff") format("woff"), url("/assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff2") format("woff2");
+  src: url("../assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot");
+  src: url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.svg#IBMPlexSans-Light") format("svg"), url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.ttf") format("truetype"), url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff") format("woff"), url("./assets/fonts/IBM-Plex/Light/IBMPlexSans-Light.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat-Regular";
   src: url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.eot");
-  src: url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.ttf") format("truetype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff") format("woff"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff2") format("woff2");
+  src: url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.svg#Montserrat-Regular") format("svg"), url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.ttf") format("truetype"), url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.woff") format("woff"), url("./assets/fonts/Montserrat/Regular/Montserrat-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -98,7 +98,7 @@ select {
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.eot");
-  src: url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.ttf") format("truetype"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.woff") format("woff"), url("/assets/fonts/Montserrat/Medium/Montserrat-Medium.woff2") format("woff2");
+  src: url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.svg#Montserrat-Regular") format("svg"), url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.ttf") format("truetype"), url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.woff") format("woff"), url("./assets/fonts/Montserrat/Medium/Montserrat-Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -106,7 +106,7 @@ select {
 @font-face {
   font-family: "Montserrat-SemiBold";
   src: url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot");
-  src: url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.svg#Montserrat-Regular") format("svg"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.ttf") format("truetype"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff") format("woff"), url("/assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff2") format("woff2");
+  src: url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.svg#Montserrat-Regular") format("svg"), url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.ttf") format("truetype"), url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff") format("woff"), url("./assets/fonts/Montserrat/SemiBold/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
